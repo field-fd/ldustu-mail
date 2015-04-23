@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>网页制作大赛邮件发送</title>
+<link rel="stylesheet" type="text/css" href="./css/simditor.css" />
+<link rel="stylesheet" type="text/css" href="./css/main.css" />
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/module.js"></script>
+<script type="text/javascript" src="./js/hotkeys.js"></script>
+<script type="text/javascript" src="./js/uploader.js"></script>
+<script type="text/javascript" src="./js/simditor.js"></script>
+<script type="text/javascript" src="./js/check.js"></script>
+</head>
+<body>
+<div id="content">
+	<div class="title">
+		<a>网页制作大赛邮件发送</a>
+	</div>
+	<hr>
+	<div class="content">
+	    <form action="sendmail.php" method="post">
+		    <span class="theme"><a>主&nbsp&nbsp题</a>
+		    <input type="text"  name="title" class="topic"></span>
+		    <span><a>内&nbsp&nbsp容</a></span>
+		    <textarea id="editor" name="content" placeholder="这里输入内容" autofocus></textarea>   
+            <input type="submit" class="btn" value="发送邮件">
+        </form>
+    </div>
+    <div id="wrapper">
+		<div class="loader-container">
+  			<div class="meter">0</div>
+  			<span class="runner"></span>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+	var editor = new Simditor({
+  	textarea: $('#editor')
+});
+</script>
+
+</div>
+</body>
+</html>

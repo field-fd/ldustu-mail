@@ -1,0 +1,94 @@
+/*css reset*/
+*{
+	vertical-align: baseline;
+    font-weight: inherit; 
+    font-family: inherit; 
+    font-style: inherit;
+    font-size: 100%;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;   
+}
+/* content*/
+body{
+    background-image: url(../bg.jpg);
+    background-image: no-repeat;
+}
+#content{
+	overflow: hidden;
+    margin: 0 auto;
+	width: 1000px;
+    position: relative;
+}
+#content .title{
+    width:1000px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#content .title a{
+    font-size: 30px;
+    font-family: "黑体";
+    color:#fff;
+    text-align:center;
+    display: block;
+}
+#content .content{
+    margin: 0 auto;
+    width:1000px;
+    overflow: hidden;
+    margin-top:20px;
+}
+#content .content  a{
+    font-size: 18px;
+    font-family: "黑体";
+    color:#1e5494;
+    margin-right: 15px;
+    float: left;
+}
+#content .content span{
+    display: block;
+    margin-top: 20px;
+}
+#content .content .theme a{
+    line-height: 35px;
+}
+#content .content .theme input{
+    width:920px;
+    height: 35px;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+.btn{
+    font-size: 16px;
+    font-family: "黑体";
+    width:100px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    color:  rgb(137,181,233);
+    border-radius: 15px;
+    background: #fff;
+    display: block;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-top: 50px;
+}   
+.simditor{
+    border: none;
+}
+.simditor-wrapper{
+    border-radius: 10px;
+}
+.simditor-body{
+    overflow: hidden;
+}
+.loader-container {
+  height: 6px;
+  width: 600px;
+  position: absolute;
+  top:[......];
+  }
